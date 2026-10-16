@@ -32,6 +32,7 @@ export default function Page() {
           <li><strong>Be the computer:</strong> an unplugged activity where students &ldquo;train&rdquo; a classmate to sort objects using examples.</li>
           <li><strong>Fact-check it:</strong> the teacher shows an AI answer with a mistake and the class finds it.</li>
           <li><strong>Prompt like a pro:</strong> students write clear instructions, then compare how a clearer prompt changes the result (teacher-run demo).</li>
+          <li><strong>Explain your thinking:</strong> after a math or science problem, students practice saying <em>how</em> they got an answer (not just the answer). Connect this to tools that capture voice or drawings, and talk about why explaining helps both learning and AI feedback.</li>
         </ul>
         <p className="mt-3 text-sm text-slate-600">More printables and AI classroom materials from the creator are coming soon. <Link className="text-brand-600 underline" href="/#newsletter">Get notified</Link>.</p>
       </section>
