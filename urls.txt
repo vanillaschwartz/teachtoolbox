@@ -39,6 +39,7 @@ mysteryscience|https://mysteryscience.com/
 epic|https://www.getepic.com/
 amplify|https://www.amplify.com/
 bookwidgets|https://www.bookwidgets.com/
+readingcoach|https://coach.microsoft.com/
 schoolai|https://schoolai.com/
 eduaide|https://www.eduaide.ai/
 teachai|https://teachai.org/

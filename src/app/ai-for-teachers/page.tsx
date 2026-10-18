@@ -33,6 +33,7 @@ export default function Page() {
           <li><strong>Fact-check it:</strong> the teacher shows an AI answer with a mistake and the class finds it.</li>
           <li><strong>Prompt like a pro:</strong> students write clear instructions, then compare how a clearer prompt changes the result (teacher-run demo).</li>
           <li><strong>Explain your thinking:</strong> after a math or science problem, students practice saying <em>how</em> they got an answer (not just the answer). Connect this to tools that capture voice or drawings, and talk about why explaining helps both learning and AI feedback.</li>
+          <li><strong>How does the computer hear me?</strong> in a teacher-led demo, read a sentence aloud into a speech-to-text reading tool such as <Link className="text-brand-600 underline" href="/tools/microsoft-reading-coach">Microsoft Reading Coach</Link>, then try mumbling or reading fast. Discuss why AI sometimes mishears and why a person should check its feedback. Browse more <Link className="text-brand-600 underline" href="/category/math-science-reading">reading and math tools</Link>.</li>
         </ul>
         <p className="mt-3 text-sm text-slate-600">More printables and AI classroom materials from the creator are coming soon. <Link className="text-brand-600 underline" href="/#newsletter">Get notified</Link>.</p>
       </section>
