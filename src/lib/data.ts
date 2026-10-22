@@ -67,6 +67,9 @@ export const tools: Tool[] = [
   { slug: "day-of-ai", name: "Day of AI (MIT RAISE)", url: "https://dayofai.org/", category: "digital-citizenship", ai: true,
     what: "Free, ready-to-teach AI literacy curriculum from MIT RAISE, with grade-by-grade units from Pre-K up (for example, Kindergarten: Machines All Around Us; Grade 1: Learning from Patterns, taught unplugged; Grade 2: Data All Around Us) plus lessons on topics like verifying AI information.", grades: "Pre-K–12 (grade-by-grade K–5 units)", price: "Free",
     privacy: "Curriculum resource for teachers; many early-grade lessons are unplugged, so no student accounts are required. A free educator registration may be needed for some materials.", why: "Gives you a sequenced, research-backed AI literacy path instead of one-off activities." },
+  { slug: "autodraw", name: "AutoDraw", url: "https://www.autodraw.com/", category: "creation-portfolios", ai: true,
+    what: "A free drawing tool from Google Creative Lab that pairs machine learning with drawings from artists: as you sketch, it guesses what you are trying to draw and suggests polished clip-art versions you can swap in. Nothing to download, and it works on phones, tablets, laptops, and desktops.", grades: "All ages (great for K–5)", price: "Free",
+    privacy: "No account needed. Google says there is nothing to download and nothing to pay for. It uses the same guessing technology as Quick, Draw!, so preview it first, and check with your district for web-tool approval.", why: "Kids who say \"I can't draw\" can make clean icons for posters, slides, and books, and it shows AI guessing from patterns in a friendly way." },
   { slug: "canva-education", name: "Canva for Education", url: "https://www.canva.com/education/", category: "creation-portfolios", ai: true,
     what: "Design tool for posters, slides, worksheets, and videos, with classroom features and AI-assisted design tools.", grades: "K–12", price: "Free tier available", privacy: P + " Ask whether AI features are enabled for students.", why: "Makes professional-looking classroom materials quick." },
 
@@ -83,6 +86,9 @@ export const tools: Tool[] = [
     what: "A coding platform for kids with block-based courses and school offerings.", grades: "K–8", price: "Free tier available", privacy: P, why: "Guided courses help teachers new to coding." },
   { slug: "tinkercad", name: "Tinkercad", url: "https://www.tinkercad.com/", category: "coding-computer-science",
     what: "Free browser-based tool for 3D design, circuits, and code blocks from Autodesk.", grades: "Upper elementary and up", price: "Free", privacy: P, why: "Easy 3D design that works in a browser." },
+  { slug: "machine-learning-for-kids", name: "Machine Learning for Kids", url: "https://machinelearningforkids.co.uk/", category: "coding-computer-science", ai: true,
+    what: "A free, web-based tool where students train machine learning models to recognize text, numbers, images, or sounds, then use them to build games and projects in Scratch, with ready-made one-lesson project worksheets.", grades: "Upper elementary and up (easiest with some Scratch experience)", price: "Free",
+    privacy: P + " Created by Dale Lane. Its \"Try it now\" mode needs no login, collects no personal information, and deletes projects after four hours; teacher-managed student accounts use a username only (no email or real name). Text projects use IBM Watson, so tell students not to type personal information.", why: "Moves students from using AI to building with it, inside the Scratch environment many already know." },
 
   // Classroom mgmt
   { slug: "google-classroom", name: "Google Classroom", url: "https://edu.google.com/workspace-for-education/products/classroom/", category: "classroom-management",
