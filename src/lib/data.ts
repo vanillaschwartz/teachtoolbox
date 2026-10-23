@@ -70,6 +70,9 @@ export const tools: Tool[] = [
   { slug: "autodraw", name: "AutoDraw", url: "https://www.autodraw.com/", category: "creation-portfolios", ai: true,
     what: "A free drawing tool from Google Creative Lab that pairs machine learning with drawings from artists: as you sketch, it guesses what you are trying to draw and suggests polished clip-art versions you can swap in. Nothing to download, and it works on phones, tablets, laptops, and desktops.", grades: "All ages (great for K–5)", price: "Free",
     privacy: "No account needed. Google says there is nothing to download and nothing to pay for. It uses the same guessing technology as Quick, Draw!, so preview it first, and check with your district for web-tool approval.", why: "Kids who say \"I can't draw\" can make clean icons for posters, slides, and books, and it shows AI guessing from patterns in a friendly way." },
+  { slug: "blob-opera", name: "Blob Opera (Google Arts & Culture)", url: "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw", category: "creation-portfolios", ai: true,
+    what: "A machine learning music experiment by David Li with Google Arts & Culture: students drag four singing blobs up and down to change pitch and side to side to change vowel sounds, and a model trained on 16 hours of singing by four opera singers harmonizes in real time. No singing skills needed.", grades: "All ages (great for K–5 music and AI talks)", price: "Free tier available",
+    privacy: "No account needed to play. You hear the model's idea of opera singing, not the singers' actual recordings. Google notes it uses newer web audio technology and may not run well on older devices, so test on student devices first, and check with your district for web-tool approval.", why: "A joyful way to explore pitch, harmony, and voice types while asking students how an AI can \"sing\" by learning patterns from real people." },
   { slug: "canva-education", name: "Canva for Education", url: "https://www.canva.com/education/", category: "creation-portfolios", ai: true,
     what: "Design tool for posters, slides, worksheets, and videos, with classroom features and AI-assisted design tools.", grades: "K–12", price: "Free tier available", privacy: P + " Ask whether AI features are enabled for students.", why: "Makes professional-looking classroom materials quick." },
 
@@ -147,6 +150,9 @@ export const tools: Tool[] = [
     what: "A digital library of books and videos for kids.", grades: "K–5", price: "Free tier available", privacy: P, why: "Large library to support independent reading." },
 
   // Digital citizenship
+  { slug: "be-internet-awesome", name: "Be Internet Awesome (Google)", url: "https://beinternetawesome.withgoogle.com/en_us/", category: "digital-citizenship", ai: true,
+    what: "Google's online safety program built with experts like ConnectSafely: a downloadable curriculum aligned to ISTE Standards, Interland (a free browser game with four lands on sharing, spotting fakes, strong passwords, and kindness), and an AI Literacy Guide with lesson plans on machine learning, data, and algorithms for grades 2–8.", grades: "Elementary (AI Literacy Guide: grades 2–8)", price: "Free",
+    privacy: "Google states the resources are free for everyone. Interland can be played in the browser and assigned through Google Classroom. Preview the games first and check with your district for web-tool approval.", why: "One free, ready-made package for digital citizenship and beginner AI literacy, with a game students actually want to play." },
   { slug: "common-sense-education", name: "Common Sense Education", url: "https://www.commonsense.org/education", category: "digital-citizenship",
     what: "Free digital citizenship curriculum and independent tool reviews for educators.", grades: "K–12", price: "Free", privacy: "Informational resource; their reviews can help when vetting other tools.", why: "Trusted, teacher-friendly digital citizenship lessons." },
 ];
