@@ -1,12 +1,18 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { tools } from "@/lib/data";
+import { tools, SITE } from "@/lib/data";
 import { ToolCard } from "@/components/ToolCard";
 export const metadata: Metadata = { title: "AI for teachers", description: "Teacher-safe AI tools, free AI literacy curriculum, and hands-on classroom AI lesson ideas (like training your own model with Teachable Machine) for K–5 educators.", alternates: { canonical: "/ai-for-teachers" } };
 export default function Page() {
   const ai = tools.filter((t) => t.ai);
+  // Structured data: CollectionPage + ItemList of AI tools, so search engines understand the hub as a curated list.
+  const ld = { "@context": "https://schema.org", "@type": "CollectionPage", name: "AI for elementary teachers", url: `${SITE.url}/ai-for-teachers`,
+    description: "Teacher-safe AI tools, free AI literacy curriculum, and hands-on classroom AI lesson ideas for K–5 educators.",
+    isPartOf: { "@type": "WebSite", name: SITE.name, url: SITE.url }, audience: { "@type": "EducationalAudience", educationalRole: "teacher" },
+    mainEntity: { "@type": "ItemList", numberOfItems: ai.length, itemListElement: ai.map((t, i) => ({ "@type": "ListItem", position: i + 1, name: t.name, url: `${SITE.url}/tools/${t.slug}` })) } };
   return (
     <div className="space-y-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <header>
         <h1 className="text-3xl font-extrabold">✨ AI for elementary teachers</h1>
         <p className="mt-2 max-w-2xl text-slate-700">Practical ways to use AI to save planning time, while keeping students safe. Most tools below are designed for the <em>teacher</em> to use, not for young students to use directly.</p>

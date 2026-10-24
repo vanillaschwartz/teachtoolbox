@@ -146,6 +146,9 @@ export const tools: Tool[] = [
     what: "Leveled articles and instructional content.", grades: "K–12", price: "Free tier available", privacy: P, why: "Same article at multiple reading levels." },
   { slug: "boom-learning", name: "Boom Learning", url: "https://www.boomlearning.com/", category: "math-science-reading",
     what: "Self-checking digital task cards and decks, made and shared by teachers.", grades: "PreK–12", price: "Free tier available", privacy: P, why: "Self-checking cards save grading time." },
+  { slug: "mote", name: "Mote", url: "https://www.mote.com/", category: "math-science-reading",
+    what: "A literacy and accessibility tool that works in Chrome and Google Workspace: students can have webpages, Docs, Slides, PDFs, and images read aloud in natural-sounding voices, translate text into 60+ languages, and use speech-to-text, while teachers leave voice notes on work in Google Docs, Slides, Forms, and Classroom.", grades: "K–12 (great for emerging readers and ELLs)", price: "Free tier available",
+    privacy: P + " Mote states it is COPPA and FERPA compliant. The free plan limits voice recordings (20 per month, 1 minute each); paid plans add more.", why: "Gives young and struggling readers independent access to text, and lets you give quick, personal voice feedback instead of typed comments." },
   { slug: "epic", name: "Epic", url: "https://www.getepic.com/", category: "math-science-reading",
     what: "A digital library of books and videos for kids.", grades: "K–5", price: "Free tier available", privacy: P, why: "Large library to support independent reading." },
 
@@ -153,6 +156,9 @@ export const tools: Tool[] = [
   { slug: "be-internet-awesome", name: "Be Internet Awesome (Google)", url: "https://beinternetawesome.withgoogle.com/en_us/", category: "digital-citizenship", ai: true,
     what: "Google's online safety program built with experts like ConnectSafely: a downloadable curriculum aligned to ISTE Standards, Interland (a free browser game with four lands on sharing, spotting fakes, strong passwords, and kindness), and an AI Literacy Guide with lesson plans on machine learning, data, and algorithms for grades 2–8.", grades: "Elementary (AI Literacy Guide: grades 2–8)", price: "Free",
     privacy: "Google states the resources are free for everyone. Interland can be played in the browser and assigned through Google Classroom. Preview the games first and check with your district for web-tool approval.", why: "One free, ready-made package for digital citizenship and beginner AI literacy, with a game students actually want to play." },
+  { slug: "ai-for-oceans", name: "AI for Oceans (Code.org)", url: "https://code.org/oceans", category: "digital-citizenship", ai: true,
+    what: "A free Code.org Hour of AI activity where students train a real machine learning model by labeling images as \"fish\" or \"not fish\" to clean trash out of the ocean, then pick their own labels for new sea creatures, with short videos on training data and bias. Code.org lists it for ages 7–11, and the lesson plan runs about 45 minutes.", grades: "Ages 7–11 (about grades 2–5)", price: "Free",
+    privacy: P + " Code.org's lesson plan notes the activity does not tell students whether a level is \"correct\", so circulate and prompt discussion. Test it on student devices first.", why: "A ready-to-teach, hands-on lesson that shows students how the examples people choose shape what an AI learns, including how bias creeps in." },
   { slug: "common-sense-education", name: "Common Sense Education", url: "https://www.commonsense.org/education", category: "digital-citizenship",
     what: "Free digital citizenship curriculum and independent tool reviews for educators.", grades: "K–12", price: "Free", privacy: "Informational resource; their reviews can help when vetting other tools.", why: "Trusted, teacher-friendly digital citizenship lessons." },
 ];
