@@ -7,7 +7,7 @@ export default function Page() {
       <p className="mt-2 text-slate-700">Know a great tool for elementary classrooms? Send us the name, link, grade range, and a sentence about why teachers like it. We review every suggestion.</p>
       <div className="card mt-5">
         <p className="font-semibold">Email your suggestion to:</p>
-        <p className="mt-1"><a className="text-brand-600 underline" href="mailto:hello@teachtoolbox.example?subject=Tool%20suggestion">hello@teachtoolbox.example</a> <span className="text-xs text-slate-500">(placeholder address, to be replaced)</span></p>
+        <p className="mt-1"><a className="text-brand-600 underline" href="mailto:vanillaschwartz@gmail.com?subject=Tool%20suggestion">vanillaschwartz@gmail.com</a> <span className="text-xs text-slate-500">(placeholder address, to be replaced)</span></p>
         <ul className="mt-3 list-disc pl-5 text-sm text-slate-600"><li>Tool name and link</li><li>Grade range</li><li>Free, free tier, or paid</li><li>Any privacy info you know (we verify before listing)</li></ul>
       </div>
     </div>

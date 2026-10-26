@@ -29,4 +29,4 @@ Optional env: `NEXT_PUBLIC_SITE_URL` (canonical URL for sitemap/OG; defaults to 
 - [ ] Commit, push, deploy; check /sitemap.xml
 
 ## TODO (needs owner)
-Stripe payment link for sponsors, Resend (or similar) + durable store for newsletter, custom domain, real contact email (currently `hello@teachtoolbox.example` placeholder), TPT links.
+Stripe payment link for sponsors, Resend (or similar) + durable store for newsletter, custom domain, real contact email (currently `vanillaschwartz@gmail.com` placeholder), TPT links.
