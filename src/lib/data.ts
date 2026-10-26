@@ -78,6 +78,9 @@ export const tools: Tool[] = [
   { slug: "kami", name: "Kami", url: "https://www.kamiapp.com/", category: "creation-portfolios", ai: true,
     what: "A digital classroom and PDF annotation tool that works with Google Drive and OneDrive: students draw, highlight, type, and voice-type right on worksheets, PDFs, and docs, with read aloud, a multilingual dictionary, and accessibility fonts. Paid plans add Google Classroom, Canvas, Schoology, and Teams integration plus AI features such as AI-powered Understand tools and Questions AI.", grades: "K–12 (great for turning worksheets into digital ones)", price: "Free tier available",
     privacy: PA + " The free Basic plan includes 10+ essential tools; the Teacher plan (40+ tools and LMS integrations) is paid, and new teacher accounts get a 30-day free trial.", why: "Turns the worksheets and PDFs you already use into interactive, accessible assignments that young students can mark up with a finger or stylus." },
+  { slug: "adobe-express-education", name: "Adobe Express for Education", url: "https://www.adobe.com/education/express/", category: "creation-portfolios", ai: true,
+    what: "A K–12 version of Adobe's design app where students make posters, graphics, short videos, and presentations from curriculum-aligned templates and 10-minute Guided Activities. Teachers can assign and review projects through Classrooms and Google Classroom, and generative AI tools are built in for structured, teacher-guided use.", grades: "K–12", price: "Free",
+    privacy: PA + " Adobe says the free K–12 Education license includes Premium features with no paywalls, ads, or pop-ups, safe search for age-appropriate images and video, and school-owned accounts with single sign-on.", why: "A free, classroom-safe way for young students to create real digital media and get a guided first look at generative AI." },
 
   // Coding
   { slug: "scratch", name: "Scratch", url: "https://scratch.mit.edu/", category: "coding-computer-science",
@@ -136,6 +139,9 @@ export const tools: Tool[] = [
     what: "Interactive lessons with polls, quizzes, and activities delivered live or self-paced.", grades: "K–12", price: "Free tier available", privacy: P, why: "Large library of ready-made lessons." },
   { slug: "pear-deck", name: "Pear Deck", url: "https://www.peardeck.com/", category: "interactive-lessons",
     what: "Add interactive questions to Google Slides or PowerPoint presentations.", grades: "K–12", price: "Free tier available", privacy: P, why: "Turn slides you already have into interactive lessons." },
+  { slug: "edpuzzle", name: "Edpuzzle", url: "https://edpuzzle.com/", category: "interactive-lessons", ai: true,
+    what: "Turns any video (YouTube, a read-aloud, or your own screen recording) into an interactive lesson with embedded questions, audio responses, and no-skip settings, plus quizzes, slides, and student projects. Teacher Assist AI generates multiple-choice or open-ended questions from a video and suggests autogrades for open-ended answers, and Live Mode lets the whole class watch together.", grades: "K–12", price: "Free tier available",
+    privacy: PA + " Edpuzzle says videos play without ads or recommended videos. The free Basic plan includes Teacher Assist and up to 20 saved activities; Pro Teacher is paid.", why: "Keeps students actively thinking during videos and read-alouds, with audio options and captions that support early readers." },
   { slug: "mystery-science", name: "Mystery Science", url: "https://mysteryscience.com/", category: "interactive-lessons",
     what: "Ready-to-teach science lessons built around kid-friendly questions.", grades: "K–5", price: "Free tier available", privacy: P, why: "Low-prep lessons built for elementary." },
 
