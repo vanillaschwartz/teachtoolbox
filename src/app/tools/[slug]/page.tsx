@@ -43,6 +43,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         <div className="rounded-lg border border-amber-200 bg-amber-50 p-3"><dt className="font-bold">Privacy &amp; COPPA notes</dt><dd className="text-sm text-slate-700">{t.privacy} This is not legal advice; check with your district.</dd></div>
       </dl>
       <a href={t.url} target="_blank" rel="noopener noreferrer" className="btn mt-6">Visit {t.name} ↗</a>
+      {t.tpt && <a href={t.tpt} target="_blank" rel="noopener noreferrer" className="btn mt-6 ml-3">Full version on Teachers Pay Teachers ↗</a>}
       {t.ai && (
         <p className="mt-6 rounded-lg border border-violet-200 bg-violet-50 p-3 text-sm text-slate-700">Using AI with K–5 students? See our <Link className="text-brand-600 underline" href="/ai-for-teachers">AI for teachers hub</Link> for a safe-use checklist and no-account AI lesson ideas, or browse all <Link className="text-brand-600 underline" href="/category/ai-tools">AI tools for teachers</Link>.</p>
       )}

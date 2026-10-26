@@ -1,6 +1,6 @@
 export type Category = { slug: string; name: string; blurb: string; emoji: string };
 export type Tool = {
-  slug: string; name: string; url: string; category: string; ai?: boolean; creator?: boolean;
+  slug: string; name: string; url: string; category: string; ai?: boolean; creator?: boolean; tpt?: string;
   what: string; grades: string; price: "Free" | "Free tier available" | "Paid"; privacy: string; why: string;
 };
 
@@ -21,7 +21,7 @@ const PA = "Review the vendor's privacy policy and your district's AI policy bef
 
 export const tools: Tool[] = [
   // From the creator
-  { slug: "math-fluency-sprint", name: "Math Fluency Sprint", url: "https://school.math-fluency-sprint.here.now/", category: "creator-resources", creator: true,
+  { slug: "math-fluency-sprint", name: "Math Fluency Sprint", url: "https://school.math-fluency-sprint.here.now/", category: "creator-resources", creator: true, tpt: "https://www.teacherspayteachers.com/Product/Math-Fluency-Sprint-17676545",
     what: "A free, browser-based math fact fluency practice game made by an elementary teacher.", grades: "Elementary", price: "Free",
     privacy: "Made by the site's creator. As always, check with your district before using any web tool with students.", why: "Built by a working elementary teacher for real classroom practice time." },
   { slug: "badge-quest", name: "Badge Quest: Net Guardians", url: "https://badgequestedu.github.io/badge-quest-net-guardians/", category: "creator-resources", creator: true,
