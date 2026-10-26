@@ -103,6 +103,12 @@ export const tools: Tool[] = [
     privacy: P + " Kodable says it is ad-free. The free Kickstart plan includes introductory coding lessons; paid school plans unlock the full library, Kodable Typing, rostering, and an AI STEM tutor.", why: "A no-prep, standards-aligned coding path that even kindergartners can start on their own, so it works well for centers or a specials rotation." },
 
   // Classroom mgmt
+  { slug: "shy-safari", name: "Shy Safari", url: "https://www.shysafari.com/", category: "classroom-management",
+    what: "A free classroom noise monitor for the projector: shy animals come out the longer the room stays quiet and run off when it gets too loud.", grades: "K–5", price: "Free",
+    privacy: "No sign-up and nothing recorded; the mic only measures volume on your computer. " + P, why: "Rewards quiet work with a calm scene instead of a bouncing noise meter kids try to max out." },
+  { slug: "math-figures", name: "Math Figures", url: "https://mathfigures.com/", category: "math-science-reading",
+    what: "Free generators for clean coordinate grids, number lines, and other math figures for tests, worksheets, and slides.", grades: "K–5 (teacher-facing)", price: "Free",
+    privacy: "Teacher-facing, no ads or tracking of personal data. " + P, why: "Saves time making tidy, printable figures instead of drawing them by hand." },
   { slug: "google-classroom", name: "Google Classroom", url: "https://edu.google.com/workspace-for-education/products/classroom/", category: "classroom-management",
     what: "Assign, collect, and give feedback on work, and communicate with your class.", grades: "K–12", price: "Free tier available", privacy: "Usually set up and managed by your district's Google Workspace for Education admin. Check with your district.", why: "Often already set up by your school." },
   { slug: "classdojo", name: "ClassDojo", url: "https://www.classdojo.com/", category: "classroom-management",
